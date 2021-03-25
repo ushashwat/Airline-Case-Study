@@ -47,6 +47,7 @@ Findings show that aircraft types **A320** and **A330** prove to be more efficie
 
 2. In the second instance, upon manual inspection, the results corroborated with those in the first instance, confirming yet again that **A330** and **A320** are most suitable for travel between city pairs AA-BB, BB-CC and CC-AA, AA-DD respectively. </br>
 
+### Conclusion
 Thus, the start-up Airline B can use **4 aircrafts of type A320 and 4 aircrafts of type A330** for an optimal travel scheme. </br>
 
 Additional note: This case study is better suited to _SQL_ than _Python_.
