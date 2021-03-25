@@ -20,11 +20,15 @@ The data for this problem is provided in an excel file with several sheets, thus
 
 _Total cost = Total hours flown * Costs / hour_ </br>
 
+![Image!](https://github.com/ushashwat/Airline-Case-Study/blob/main/images/total_cost.png) </br>
+
 It would be prudent to give priority to **ATR72** for travel on the conditions that the passenger demand doesn’t exceed the seat limit (75) and the distance is less than 1000 km.
 
 2. Lowest cost per seat per km flown: This parameter deals with the cost associated with each seat in an aircraft over a kilometre long journey. It can be formulated as: </br>
 
 _Cost per seat per kilometre = (Total cost) / (No.of seats * Total hours * Avg.speed)_ </br>
+
+![Image!](https://github.com/ushashwat/Airline-Case-Study/blob/main/images/cost_seat_km.png) </br>
 
 The most economically efficient aircraft type in terms of per-seat cost by kilometre is **A330**. It is this reason why Airline A chose **A330** for the maximum air travel hours. </br>
 
@@ -43,11 +47,16 @@ Using direct cost-based analysis as well as manual study, the following conclusi
 
 _Total cost = Cost per seat per km * No. of seats * Trip distance * No. of trips_ </br>
 
+![Image!](https://github.com/ushashwat/Airline-Case-Study/blob/main/images/trip_cost.png) </br>
+
 Findings show that aircraft types **A320** and **A330** prove to be more efficient than others.
 
 2. In the second instance, upon manual inspection, the results corroborated with those in the first instance, confirming yet again that **A330** and **A320** are most suitable for travel between city pairs AA-BB, BB-CC and CC-AA, AA-DD respectively. </br>
 
 ### Conclusion
+
+![Image!](https://github.com/ushashwat/Airline-Case-Study/blob/main/images/optimal_craft.png) </br>
+
 Thus, the start-up Airline B can use **4 aircrafts of type A320 and 4 aircrafts of type A330** for an optimal travel scheme. </br>
 
 Additional note: This case study is better suited to _SQL_ than _Python_.
